@@ -46,8 +46,8 @@ namespace RyansoSansoMC
                                 Console.WriteLine($"試行回数: {numOfTrials}");
                                 Console.WriteLine($"リーチ可能:  {canRiichi}");
                                 Console.WriteLine($"2s切りリーチ: {riichiTileIsRyanso}");
-                                Console.WriteLine($"3sがあがり牌: {winTileIsSanso} ({(riichiTileIsRyanso == 0 ? null : winTileIsSanso / riichiTileIsRyanso):P2})");
-                                Console.WriteLine($"字牌があがり牌: {winTileIsHonors} ({(riichiTileIsRyanso == 0 ? null : winTileIsHonors / riichiTileIsRyanso):P2})");
+                                Console.WriteLine($"3sが当たり牌: {winTileIsSanso} ({(riichiTileIsRyanso == 0 ? null : winTileIsSanso / riichiTileIsRyanso):P2})");
+                                Console.WriteLine($"字牌が当たり牌: {winTileIsHonors} ({(riichiTileIsRyanso == 0 ? null : winTileIsHonors / riichiTileIsRyanso):P2})");
                                 Console.WriteLine();
                             }
 

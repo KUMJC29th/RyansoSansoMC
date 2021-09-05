@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RyansoSansoMC", "RyansoSansoMC\RyansoSansoMC.csproj", "{A9EA6D3D-F7AF-4E88-BE54-ADFF6582ED7F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RyansoSansoMC", "RyansoSansoMC\RyansoSansoMC.csproj", "{A9EA6D3D-F7AF-4E88-BE54-ADFF6582ED7F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CB780DF6-1D58-43C4-865E-E11C6594BF3D}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.md = Readme.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
